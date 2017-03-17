@@ -1,0 +1,30 @@
+{
+  "name": "arandilopez/laravel-clip",
+  "description": "File attachments made easy",
+  "type": "library",
+  "require": {
+    "illuminate/support": "^5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "mockery/mockery": "^0.9.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arandi López",
+      "email": "arandilopez.93@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Clip\\": "Clip/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Clip\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
