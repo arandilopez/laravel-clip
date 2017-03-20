@@ -3,7 +3,9 @@
   "description": "File attachments made easy",
   "type": "library",
   "require": {
-    "illuminate/support": "^5.4"
+    "illuminate/support": "^5.4",
+    "illuminate/database": "^5.4",
+    "illuminate/http": "^5.4"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.0",
