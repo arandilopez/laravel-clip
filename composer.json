@@ -20,7 +20,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Clip\\": "Clip/"
+      "Clip\\": "src/"
     }
   },
   "autoload-dev": {
